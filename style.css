@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    height: 60px;
+}
+
+#navbarTop{
+    background-color: #daac00 !important;
+    padding:0.7% 4%;
+    font-size: 16px;
+    
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 16px;
+    padding: 8px 26px 8px 20px !important;
+}
+#searchbox::placeholder{
+    color: white;
+}
+#searchbox{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 5px 10px 11px 0px #00000021;
+    position: relative;
+    left: 46px;
+}
+
+#searchbtn{
+    position: relative;
+    z-index: 99;
+    color: white;
+    border: 0;
+    background-color: #00bec9; 
+    border-radius: 0;
+}
+@media only screen and (max-width: 769px){
+    #search{
+        margin-bottom: 25px;
+        margin-top: 20px;
+        position: relative;
+        left: -22px;
+        
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    #navbarTop{
+        padding: 1%;    
+    }
+    #logo{
+        height: 50px;
+    }
+    
+}
+
+/* banner starting */
+#banner{
+     background-color: #fcc302;
+     padding-bottom: 20px;
+}
+
+#bannertext h1{
+    color: white;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+#bannertext p{
+    color: white;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#btn1{
+    background-color: #00bec9;
+    color: white;
+    border: 2px solid #00bec9;
+    box-shadow: none;
+    border-radius: 5px;
+    padding:8px;
+}
+#btn2{
+    
+    color: white;
+    border: 2px solid white;
+    box-shadow: none;
+    border-radius: 5px;
+    padding:8px;
+    margin-left: 40px;
+}
+
+#bannerimg{
+    padding-top: 25px;
+    height: 470px; 
+}
+
+@media only screen and (max-width: 1200px) {
+    #bannertext h1 {
+        font-size: 50px;
+}
+    #banner{
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+    #bannertext h1 {
+        font-size: 38px;
+}
+    #bannertext p {
+    font-size: 17px;
+}
+    #bannerimg{
+        height: 420px;
+    }
+
+}
+
+
+/* services */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#service-btn{
+    color: white;
+    background-color: #fcc302;
+    border: 2px solid #fcc302;
+
+}
+
+#service-img{
+    padding: 5%;
+}
+
+/* page3 care */
+
+#care-p3{
+    background-color: #fcc302;
+
+}
+
+#care-text{
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;  
+}
+#care-text p{
+    padding-top: 5px;
+    padding-bottom: 5%;
+}
+#care-imgs h3{
+    padding-top: 8px;
+}
+
+#care-imgs{
+    padding-top: 5%;
+    padding-bottom: 5%;  
+}
+
+
+/* our doctors page4 */
+#doc-text{
+    padding-top: 8%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#doc-text p{
+    padding-bottom: 6%;
+}
+
+#doc-text h5{
+   padding-top: 3%;
+   font-weight: 700; 
+}
+
+#doc-text h6{
+    padding-bottom: 5%;
+}
+
+/* page5num */
+#num-bg{
+    background-image: url(images/im.jpg);
+    padding-top: 10%;
+    padding-bottom: 12%;
+    background-position: center;
+    background-size: cover;
+}
+
+.num-icon{
+    font-size: 50px;
+}
+
+/* blogpage */
+#blog-text{
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 5%;
+}
+#blog-text p {
+padding-top: 1.5%;
+padding-bottom: 2%;
+}
+
+.btn{
+    border: 2px solid #fcc302;
+    background-color: #fcc302;
+}
+
+.blog-date{
+    color: #00bec9;
+}
+
+
+/* footer7 */
+#footer{
+    background-color: #343434;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+.footer-h5{
+    padding-bottom: 5%;
+    font-weight: bold;
+}
+
+#footer-form{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    height: 30px;
+}
+#footer-btn{
+    background-color: #00bec9;
+    border: 0;
+    height: 30px;
+}
+
+.footer-icon{
+    padding-top: 2%;
+    font-size: 20px;
+}
+
+
+
+
